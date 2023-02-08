@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T02:50:51.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="3sANu6BigNQQnxjPb31Y" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T02:52:11.081Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HQ362pPQr1s3GXkFlG-p" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,17 +50,8 @@
         <mxCell id="FqvtAqR_Rkzib5x8kWpQ-0" value="delete_&lt;br&gt;token_&lt;br&gt;demo" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="108" y="320" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FqvtAqR_Rkzib5x8kWpQ-15" value="request_type =&amp;nbsp;stsuu.getContextAttributes().getAttributeValuesByNameAndType(&quot;request_type&quot;, &quot;urn:ibm:names:ITFIM:oauth:request&quot;);" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="285" y="34" width="810" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="FqvtAqR_Rkzib5x8kWpQ-16" value="response_type =&amp;nbsp;stsuu.getContextAttributes().getAttributeValuesByNameAndType(&quot;response_type&quot;, &quot;urn:ibm:names:ITFIM:oauth:query:param&quot;);" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="285" y="94" width="810" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="FqvtAqR_Rkzib5x8kWpQ-17" value="username =&amp;nbsp;stsuu.getContextAttributes().getAttributeValuesByNameAndType(&quot;username&quot;, &quot;urn:ibm:names:ITFIM:oauth:body:param&quot;);&lt;br&gt;or&lt;br&gt;username =&amp;nbsp;stsuu.getContextAttributes().getAttributeValuesByNameAndType(&quot;username&quot;, &quot;urn:ibm:names:ITFIM:oauth:request&quot;);" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="285" y="159" width="810" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="FqvtAqR_Rkzib5x8kWpQ-18" value="password =&amp;nbsp;stsuu.getContextAttributes().getAttributeValuesByNameAndType(&quot;password&quot;, &quot;urn:ibm:names:ITFIM:oauth:body:param&quot;);" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="285" y="219" width="810" height="65" as="geometry" />
+        <mxCell id="FqvtAqR_Rkzib5x8kWpQ-18" value="access_token_id =&amp;nbsp;stsuu.getContextAttributes().getAttributeValuesByNameAndType(&quot;access_token_id&quot;, &quot;urn:ibm:names:ITFIM:oauth:response:metadata&quot;);" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="285" y="219" width="905" height="65" as="geometry" />
         </mxCell>
         <mxCell id="6J8a5stnOlsp0kq5DlnN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.465;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_euS-0L5MUva1uoUSyzm-0" target="6J8a5stnOlsp0kq5DlnN-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -68,8 +59,8 @@
         <mxCell id="_euS-0L5MUva1uoUSyzm-0" value="access_token" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="98" y="647" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_euS-0L5MUva1uoUSyzm-6" value="clientId =&amp;nbsp;stsuu.getContextAttributes().getAttributeValuesByNameAndType(&quot;client_id&quot;, &quot;urn:ibm:names:ITFIM:oauth:body:param&quot;);&lt;br&gt;or&lt;br&gt;clientId =&amp;nbsp;stsuu.getContextAttributes().getAttributeValuesByNameAndType(&quot;client_id&quot;, &quot;urn:ibm:names:ITFIM:oauth:query:param&quot;);" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="286" y="278" width="810" height="92" as="geometry" />
+        <mxCell id="_euS-0L5MUva1uoUSyzm-6" value="refresh_token_id = stsuu.getContextAttributes().getAttributeValuesByNameAndType(&quot;refresh_token_id&quot;, &quot;urn:ibm:names:ITFIM:oauth:response:metadata&quot;);" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="286" y="278" width="904" height="62" as="geometry" />
         </mxCell>
         <mxCell id="6J8a5stnOlsp0kq5DlnN-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="6J8a5stnOlsp0kq5DlnN-1" target="6J8a5stnOlsp0kq5DlnN-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
