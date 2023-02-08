@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T02:44:19.497Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qhH5-vCEcAvVK9j0LEv6" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T02:44:31.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="abYdGDybpX8p-UwFxbCP" version="20.8.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,7 +87,7 @@
           <mxGeometry x="1105.5" y="630" width="88" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VXy_Dsxw0l8oIBGZ0-ki-14" value="new Attribute(attrKeyArray[i], &quot;urn:ibm:names:ITFIM:oauth:response:attribute&quot;, OAuthMappingExtUtils.getAssociation(state_id, attrKeyArray[i]));" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="640" width="520" height="40" as="geometry" />
+          <mxGeometry x="300" y="640" width="520" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
